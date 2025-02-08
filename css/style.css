@@ -40,8 +40,15 @@
     font-family: var(--font-primary);
 }
 
-body {
+/* Prevent horizontal scrolling */
+html, body {
+    overflow-x: hidden;
+}
+
+ body {
     position: relative;
+  
+
 }
 
 /* Typography */
